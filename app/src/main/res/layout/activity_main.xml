@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.deepakrattan.json.MainActivity">
+
+    <Button
+        android:id="@+id/btnCreateJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create JSON" />
+
+    <Button
+        android:id="@+id/btnParseJson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parse JSON" />
+
+    <TextView
+        android:id="@+id/txtShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnShowJsonInNextScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show JSON in next Screen" />
+
+
+</LinearLayout>
